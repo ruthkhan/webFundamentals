@@ -1,0 +1,98 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Buttons */
+.btn {
+    background-color: mediumaquamarine; 
+    color: azure;
+    width: 150px; 
+    border-style: solid;
+    border-color: black; 
+    box-shadow: 5px 5px black;
+    font-size: 0.875em;
+    font-weight: bold;
+}
+
+/* Layout */
+.row {
+    display: flex;
+    color: azure;
+}
+
+.col {
+    flex:1;
+    color: azure;
+    height: 50px;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col-2 {
+    flex:2;
+    height: 50px;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col-3 {
+    flex:3;
+    height: 50px;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Navbar */
+.nav {
+    background-color: dimgray;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.nav-title {
+    width: 60%;
+}
+
+.nav-links {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    color: lightgray;
+}
+
+.active {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+/* Photo Styling */
+.photo {
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 30px; 
+    border-radius: 50%;
+    border: solid 2px gainsboro;
+    padding: 2px; 
+    background-color: whitesmoke;
+}

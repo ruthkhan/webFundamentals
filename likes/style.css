@@ -1,0 +1,98 @@
+* {
+    border: 0px;
+    margin: 0px;
+    /* border: solid black 1px; */
+}
+
+body {
+    width: 600px;
+    /* display: flex;
+    justify-content: flex-start; */
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    background-color: white;
+    color: black;
+}
+
+button { 
+    background-color: gold;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    font-weight: bold;
+}
+
+img {
+    height: 100px;
+}
+
+.link {
+    color: royalblue;
+    text-decoration-line: underline;
+}
+
+/* Header Styles */
+.header {
+    color: white;
+    background-color: black;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
+/* Page Styles */
+.page h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+.leftCol {
+    flex: 1;
+}
+
+.posts {
+    flex: 3;
+    margin-left: 20px;
+}
+
+/* Profile Styles */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.profile > * {
+    margin-bottom: 20px;
+}
+
+/* Card Styles */
+.card {
+    height: 130px;
+    margin-bottom: 20px; 
+    border: 2px solid black;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.cardHeader > * {
+    flex: 1;
+    margin: 15px;
+}
+
+.filler {
+    margin: 15px;
+}
+
+.likes {
+    display: flex;
+    justify-content: space-between;
+}

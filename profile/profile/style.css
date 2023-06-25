@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+}
+
+/* Page Layout */
+.mainbody {
+    display: flex;
+    justify-content: center;
+    padding: 0px 15%;
+}
+
+.mainbody > * {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 2;
+}
+
+.rightpanel {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.card {
+    margin: 10px 0px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px 15%;
+    display: flex;
+}
+
+.options {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.signout {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.active {
+    font-weight: bold;
+}
+
+#logout {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 5px 15px;
+    border: 0px;
+}
+
+/* General Card Styles */
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+th {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: dimgrey;
+    color: whitesmoke;
+    border: solid 2px dimgrey;
+}
+
+th > * {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+td {
+    border: solid 2px gainsboro;
+    padding: 10px;
+}
+
+li {
+    display: flex;
+}
+
+.iconinfo {
+    display: flex;
+    align-items: center;
+    padding: 5px 20px 0px 20px;
+}
+
+.icon {
+    height: 20px;
+    padding-right: 5px;
+}
+
+.more {
+    color: cornflowerblue;
+    text-decoration-line: underline;
+    padding-left: 13px;
+}
+
+/* Content Column Styles */
+.content > * {
+    padding: 5px 20px;
+}
+
+th.profile {
+    height: 80px;
+    background-color: teal;
+    border: solid 2px teal;
+}
+
+h1.profile {
+    padding-top: 20px;
+}
+
+.location {
+    margin-left: 20px;
+}
+
+h5 {
+    color: grey;
+    font-size: 1em;
+}
+
+#myphoto {
+    position: absolute;
+    margin: 40px 0px 0px 30px;
+    border: solid 2px gainsboro;
+    padding: 2px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+
+/* Right Panel Column Styles */
+.person {
+    display: flex;
+    align-items: center;
+    flex: 3;
+}
+
+.person > * {
+    margin: 5px;
+}
+
+.person > img {
+    border-radius: 50%;
+    height: 30px;
+}
+
+.connectionnum {
+    display: flex;
+    align-items: center; 
+    border-radius: 50%;
+    border: solid 1px lightgrey;
+    padding: 3px 8px;
+    background-color: lightgrey;
+    color: black;
+}
+
+.assess {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 2;
+}

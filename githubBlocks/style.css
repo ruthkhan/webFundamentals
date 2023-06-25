@@ -1,0 +1,39 @@
+.container {
+    width: 780px;
+    background-color: whitesmoke;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: dimgray;
+    margin: auto;
+    padding: 1px 0px;
+}
+
+.block {
+    height: 200px;
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#row1 {
+    background-color: deepskyblue;
+}
+
+#row2 {
+    background-color: pink;
+    justify-content: space-evenly;
+}
+
+#row3 {
+    background-color: mintcream;
+}
+
+img {
+    height: 200px;
+    background-color: snow;
+}
+
+a {
+    color: dodgerblue;
+}

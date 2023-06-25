@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Dojonary</h1>
+        <form>
+            <input type="search" class="search" placeholder="Search">
+        </form>
+        <button type="button" id="login" onclick="logout(this)">Login</button>
+    </div>
+
+    <div class="content">
+        <div class="col-1">
+            <div class="card">
+                <div class="word">
+                    <h1>ninja</h1>
+                    <h3 class="italic">noun</h3>
+                    <h4 class="count">Plural: <span class="italic">ninjas</span></h4>
+                    <button type="button" class="likes" onclick="liked()">13 likes</button>
+                </div>
+                <p class="defn">A practitioner skilled in the <span class="underline">Japanese</span> art of <span class="underline">ninjutsu</span></p>
+            </div>
+
+            <div class="card">
+                <div class="word">
+                    <h1>ninja</h1>
+                    <h3 class="italic">noun</h3>
+                    <h4 class="count">Plural: <span class="italic">ninjas</span></h4>
+                    <button type="button" class="likes" onclick="liked()">37 likes</button>
+                </div>
+                <p class="defn">A <span class="underline">programmer</span> who breaks down problems with <span class="underline">zen</span>-like focus</p>
+            </div>
+        </div>
+
+        <div class="col-2">
+            <div class="card">
+                <div class="word">
+                    <h2><span class="unbold">Dojonary is defined by </span>YOU</h2>
+                    <button type="button" id="add-defn" onclick="addDefn(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

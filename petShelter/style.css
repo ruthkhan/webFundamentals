@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    font-family:'Roboto', sans-serif;
+}
+
+img {
+    margin-right: 10px;
+}
+
+.btn {
+    width: 160px;
+    height: 25px; 
+    color: white;
+    background-color: turquoise;
+    border: 2px solid black;
+    padding: 3px 40px; 
+    box-shadow: 3px 3px black;
+}
+
+/* Header Styles */
+.header {
+    background-color: teal;
+    color: white;
+    margin: auto;
+    border: 2px solid black;
+}
+
+/* Navigation Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    width: 800px;
+    margin: 20px auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navbar h1 {
+    margin: 10px; 
+}
+
+.navoptions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.navoptions > * {
+    margin-left: 40px;
+}
+
+#donate {
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    border: 2px solid darkviolet; 
+    background-color: white;
+    color: darkviolet;
+    font-weight: bold;
+    font-size: 1.5em;
+    box-shadow: none;
+    padding: 1px 10px;
+}
+
+/* Search Styles */
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 800px;
+    margin: 20px auto;
+}
+
+.enter {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 30px;
+}
+
+select {
+    margin: 3px; 
+    border: 2px solid black;
+    padding: 2px 30px 2px 2px;
+}
+
+input {
+    height: 20px;
+    border: 2px solid black;
+}
+
+#find {
+    width: 230px;
+    height: 30px;
+    margin-bottom: 3px;
+    background-color: darkviolet;
+    font-weight: bold;
+    font-size: medium;
+    padding: 3px 15px;
+}
+
+/* Card Styles */
+.content {
+    width: 800px;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.card-alt {
+    background-color: gray; 
+}
+
+.card > * {
+    margin: 20px;
+}
+
+.photo {
+    height: 75px;
+}
+
+.pettings > p {
+    margin-bottom: 15px;
+    text-align: end;
+}

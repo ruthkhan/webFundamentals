@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>DojoWeather</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>DojoWeather</h1>
+        <div class="cities">
+            <h3 onclick="loading()" onmouseover="chgPointer(this)" onmouseout="stdPointer(this)">Burbank</h3>
+            <h3 onclick="loading()" onmouseover="chgPointer(this)" onmouseout="stdPointer(this)">Chicago</h3>
+            <h3 onclick="loading()" onmouseover="chgPointer(this)" onmouseout="stdPointer(this)">Dallas</h3>
+        </div>
+    </div>
+
+    <div class="pagebody">
+        <div class="header">
+            <h2>San Jose</h2>
+            <div id="unitselect">
+                <label for="units">show temperature in </label>
+                <select name="units" id="units" onchange="convert(this)">
+                    <option value="c">°C</option>
+                    <option value="f">°F</option>
+                </select>
+            </div> 
+        </div>
+
+        <div class="forecast">
+            <div class="card">
+                <h3>Today</h3>
+                <img src="assets/some_rain.png" alt="Rain icon">
+                <p>some rain</p>
+                <div class="hilo">
+                    <h3 class="today high">24°</h3>
+                    <h3 class="today low">18°</h3>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Tomorrow</h3>
+                <img src="assets/some_sun.png" alt="Sun icon">
+                <p>some sun</p>
+                <div class="hilo">
+                    <h3 class="tmr high">27°</h3>
+                    <h3 class="tmr low">19°</h3>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Friday</h3>
+                <img src="assets/some_clouds.png" alt="Clouds icon">
+                <p>some clouds</p>
+                <div class="hilo">
+                    <h3 class="fri high">21°</h3>
+                    <h3 class="fri low">16°</h3>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Saturday</h3>
+                <img src="assets/some_sun.png" alt="Sun icon">
+                <p>some sun</p>
+                <div class="hilo">
+                    <h3 class="sat high">26°</h3>
+                    <h3 class="sat low">21°</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="cookie">
+            <img src="assets/cookie.png" alt="Cookie icon">
+            <div id="policy">
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button onclick="dismiss()">I Accept</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

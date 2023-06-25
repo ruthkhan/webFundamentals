@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Network</h1>
+    </div>
+    
+    <div class="page">
+        <h1>Your Feed</h1>
+        <div class="content">
+            <div class="leftCol">
+                <div class="profile">
+                    <img src="user.png" alt="Avatar icon">
+                    <p class="link">Add an avatar</p>
+                    <h2>James Doe</h2>
+                </div>
+            </div>
+
+            <div class="posts">
+                <div class="card">
+                    <div class="cardHeader">
+                        <h2>Neil M</h2>
+                        <div class="likes">
+                            <p id="count0">9 like(s)</p>
+                            <button onclick="addLike(0)">Like</button>
+                        </div>
+                    </div>
+                    <p class="filler">I just set up this new discord bot, let me know what you all think. <span class="link">link</span></p>
+                </div>
+            
+                <div class="card">
+                    <div class="cardHeader">
+                        <h2>Nichole K</h2>
+                        <div class="likes">
+                            <p id="count1">12 like(s)</p>
+                            <button onclick="addLike(1)">Like</button>
+                        </div>
+                    </div>
+                    <p class="filler">Just finished my <span class="link">next comic</span>, check it out.</p>
+                </div>
+            
+                <div class="card">
+                    <div class="cardHeader">
+                        <h2>Jim R</h2>
+                        <div class="likes">
+                            <p id="count2">9 like(s)</p>
+                            <button onclick="addLike(2)">Like</button>
+                        </div>
+                    </div>
+                    <p class="filler">I can't stop listening to the <span class="link">new album</span>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

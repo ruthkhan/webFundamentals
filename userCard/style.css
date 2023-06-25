@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid black; */
+}
+
+.container {
+    position: relative;
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.upperblock {
+    background-color: darkcyan;
+    height: 100px;
+}
+
+#photo {
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 30px; 
+    border-radius: 50%;
+    border: solid 2px gainsboro;
+    padding: 2px; 
+    background-color: whitesmoke;
+}
+
+.lowerblock {
+    border: solid 2px gainsboro;
+    padding: 60px 0px 20px 30px; 
+}
+
+.lowerblock>* {
+    margin-bottom: 10px;
+}
+
+.location,.editprofile {
+    display: flex;
+    align-items: center;
+}
+
+.smallicons {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.editprofile {
+    color: royalblue;
+    text-decoration: underline;
+}
