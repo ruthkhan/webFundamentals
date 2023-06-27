@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    width: 260px;
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
+    margin: 10px;
+    text-align: center;
+}
+
+#calculator {
+    background-color: black;
+    margin: 5px;
+    padding: 5px; 
+}
+
+/* Button Styling */
+button {
+    font-size: 2em;
+    background-color: dimgray;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
+}
+
+.operator {
+    background-color: orange;
+}
+
+#equals {
+    background-color: lightgray;
+    color: black;
+    width: 210px;
+    border-radius: 20px;
+}
+
+/* Display Styling */
+#display {
+    color: white;
+    font-size: 2em;
+    text-align: end;
+}
